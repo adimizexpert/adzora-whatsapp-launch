@@ -38,10 +38,10 @@ const Hero = () => {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center justify-center gap-2 rounded-full bg-gradient-primary px-8 py-4 font-heading font-semibold text-white shadow-glow transition-all duration-300 hover:scale-105 active:scale-95"
+            className="group flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-8 py-4 font-heading font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl active:scale-95"
           >
-            <MessageCircle className="h-5 w-5" />
-            Get Started Now
+            <MessageCircle className="h-5 w-5 fill-current" />
+            WhatsApp Us Now
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </a>
           <a
