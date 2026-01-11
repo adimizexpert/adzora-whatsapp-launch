@@ -24,8 +24,8 @@ const Hero = () => {
 
         {/* Tagline */}
         <h1 className="mb-4 animate-fade-in font-heading text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl" style={{ animationDelay: "0.1s" }}>
-          Your Brand.{" "}
-          <span className="text-gradient">Amplified.</span>
+          Adzora{" "}
+          <span className="text-gradient">Ads Agency</span>
         </h1>
 
         <p className="mb-8 max-w-md animate-fade-in text-lg text-muted-foreground md:max-w-xl md:text-xl" style={{ animationDelay: "0.2s" }}>
