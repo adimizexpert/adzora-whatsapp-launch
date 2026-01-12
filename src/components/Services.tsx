@@ -6,7 +6,10 @@ import {
   Video, 
   BarChart3, 
   Target, 
-  Smartphone 
+  Smartphone,
+  Gamepad2,
+  Dice5,
+  Joystick
 } from "lucide-react";
 
 const services = [
@@ -19,6 +22,26 @@ const services = [
     icon: TrendingUp,
     title: "Google Ads",
     description: "Search, Display & YouTube advertising mastery",
+  },
+  {
+    icon: Gamepad2,
+    title: "Google Gaming Ads",
+    description: "Reach gamers with targeted Google gaming campaigns",
+  },
+  {
+    icon: Target,
+    title: "Meta Ads",
+    description: "Facebook & Instagram ads that drive real results",
+  },
+  {
+    icon: Dice5,
+    title: "Casino & Gaming Ads",
+    description: "Specialized ads for casino & gaming platforms",
+  },
+  {
+    icon: Joystick,
+    title: "Game Ads",
+    description: "Promote your games to the right audience",
   },
   {
     icon: Palette,
@@ -39,11 +62,6 @@ const services = [
     icon: BarChart3,
     title: "Analytics & Insights",
     description: "Data-driven decisions for better ROI",
-  },
-  {
-    icon: Target,
-    title: "Lead Generation",
-    description: "Quality leads that turn into customers",
   },
   {
     icon: Smartphone,
