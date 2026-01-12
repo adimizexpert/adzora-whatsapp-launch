@@ -18,7 +18,7 @@ const Hero = () => {
           <img 
             src={logo} 
             alt="Adzora Logo" 
-            className="h-16 w-auto object-contain md:h-20"
+            className="h-24 w-auto object-contain md:h-32"
           />
         </div>
 
